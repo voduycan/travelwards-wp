@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Twenty Seventeen functions and definitions
@@ -16,7 +17,16 @@ if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
 	require get_template_directory() . '/inc/back-compat.php';
 	return;
 }
+add_theme_support( 'menus' );
 
+register_nav_menus(
+   array(
+       'main-nav' => 'Menu chính' ) );
+add_theme_support( 'menus' );
+
+register_nav_menus(
+   array(
+       'sup-nav' => 'Menu phu' ) );
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *

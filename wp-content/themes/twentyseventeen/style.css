@@ -121,7 +121,7 @@ strong {
 
 b,
 strong {
-	font-weight: 700;
+	font-weight: bolder;
 }
 
 code,
@@ -417,7 +417,6 @@ input,
 select,
 textarea {
 	color: #333;
-	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 	font-size: 15px;
 	font-size: 0.9375rem;
 	font-weight: 400;
@@ -474,7 +473,7 @@ h4 {
 }
 
 h5 {
-	color: #767676;
+	
 	font-size: 13px;
 	font-size: 0.8125rem;
 	font-weight: 800;
